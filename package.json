@@ -2,7 +2,7 @@
   "name": "garbageui",
   "version": "0.1.12",
   "private": false,
-  "main": "dist/jui.umd.min.js",
+  "main": "dist/garbageui.umd.min.js",
   "author": {
     "name": "倪嘉诚"
   },
