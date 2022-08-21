@@ -36,7 +36,8 @@ or
 <J-Button type="primary" round >primary Button</J-Button>
 or
 <J-Button type="primary" circle >primary Button</J-Button>
-
+```
+```
 <J-Dialog></J-Dialog>
 You can use slots to configure the title or body or footer of the dialog
 You can also pass in top(distance from top), or pass in width
