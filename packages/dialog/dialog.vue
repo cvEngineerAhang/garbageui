@@ -80,8 +80,8 @@ export default {
         color: #303133;
         font-weight: bold;
       }
-      .j-dialog__title {
-      }
+      // .j-dialog__title {
+      // }
     }
     &__body {
       padding: 10px 20px;

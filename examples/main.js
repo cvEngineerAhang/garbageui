@@ -6,8 +6,8 @@ Vue.config.productionTip = false;
 // Vue.component(JButton.name, JButton);
 // import JDialog from "./components/dialog/dialog";
 // Vue.component(JDialog.name, JDialog);
-import JUI from "../packages";
-Vue.use(JUI);
+import garbageui from "../packages";
+Vue.use(garbageui);
 new Vue({
   render: (h) => h(App),
 }).$mount("#app");
