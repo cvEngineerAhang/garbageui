@@ -51,9 +51,12 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.J-Button{
+  margin: 0 5px;
+}
 //TODO round
 .J-Button.is-round {
-  border-radius: 20px;
+  border-radius: 12px;
 }
 //TODO circle
 .J-Button.is-circle {

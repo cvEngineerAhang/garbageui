@@ -1,6 +1,26 @@
 <template>
   <div id="app">
-    <J-Button type="info">按钮</J-Button>
+    <J-Button round type="info" @click="visible = true">按钮</J-Button>
+    <J-Dialog title="标题" top="10px" width="70%" :visible.sync="visible">
+      <!-- <template v-slot:title>
+        <h3>提示标题</h3>
+      </template> -->
+      <span>内容</span>
+      <template v-slot:footer>
+        <J-Button @click="visible = false"> 确定 </J-Button>
+        <J-Button @click="visible = false"> 取消 </J-Button>
+      </template>
+    </J-Dialog>
+    <!-- <div class="default">
+      <J-Button round>default Button</J-Button>
+      <J-Button round type="primary">primary Button</J-Button>
+      <J-Button round type="success">success Button</J-Button>
+      <J-Button round type="danger">danger Button</J-Button>
+      <J-Button round type="warning">warning Button</J-Button>
+      <J-Button round type="info">info Button</J-Button>
+      <J-Button round type="gay"> Button</J-Button>
+    </div> -->
+    <!-- <J-Dialog title="title"></J-Dialog> -->
     <!-- <div>圆形按钮</div>
     <div class="circle">
       <J-Button @click="fn" circle>A</J-Button>
@@ -74,9 +94,17 @@
 
 <script>
 export default {
+  data() {
+    return {
+      visible: false,
+    };
+  },
   methods: {
     fn() {
       console.log("A");
+    },
+    close(value) {
+      this.visible = value;
     },
   },
 };

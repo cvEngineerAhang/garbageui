@@ -1,8 +1,8 @@
 import Vue from "vue";
 import Button from "./button/button";
-// import Dialog from "./dialog/dialog";
+import Dialog from "./dialog/dialog";
 
-const components = [Button];
+const components = [Button,Dialog];
 const install = function (vue) {
   components.forEach((item) => {
     Vue.component(item.name, item);
