@@ -14,7 +14,7 @@ npm install garbageui
 import garbageui from "garbageui";
 ```
 ```
-import 'garbageui/dist/jui.css'
+import 'garbageui/dist/garbageui.css'
 ```
 ```
 Vue.use(garbageui);
