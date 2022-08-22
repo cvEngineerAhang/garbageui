@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <J-Card>
+      
+    </J-Card>
     <!-- <J-Input
       type="password"
       disabled
