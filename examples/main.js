@@ -6,6 +6,8 @@ Vue.config.productionTip = false;
 // Vue.component(JButton.name, JButton);
 // import JDialog from "./components/dialog/dialog";
 // Vue.component(JDialog.name, JDialog);
+// import JInput from "./components/input/input";
+// Vue.component(JInput.name, JInput);
 import garbageui from "../packages";
 Vue.use(garbageui);
 new Vue({

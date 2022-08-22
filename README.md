@@ -23,9 +23,11 @@ Vue.use(garbageui);
 
 ## Then....
 
+## J-Button..
+
 ```
 <J-Button></J-Button>
-You can add type and plain and round and circle and disable to tags,
+You can add type or plain or round or circle and disable to tags,
 It is now in the update phase and only finishes the button,
 
 Like this
@@ -37,29 +39,52 @@ or
 or
 <J-Button type="primary" circle >primary Button</J-Button>
 ```
+
+## J-Dialog..
+
 ```
 <J-Dialog></J-Dialog>
 You can use slots to configure the title or body or footer of the dialog
 You can also pass in top(distance from top), or pass in width
+You can control the animation when the dialog appears by entering the direction(top,bottom,left,right), or select the default without typing
 Like this
-    <J-Dialog top="10px" width="70%" :visible.sync="visible">
-    <!-- If the title doesn't want to use slots, you can use title="" in the J-Dialog tab -->
-      <template v-slot:title>
-        <h3>提示标题</h3>
-      </template>
+    <J-Dialog title="title" direction="" top="" width="" :visible.sync="visible">
+     <!-- <template v-slot:title>
+        <span>title</sapn>
+      </template> -->
       <span>内容</span>
       <template v-slot:footer>
-        <J-Button @click="visible = false"> 确定 </J-Button>
-        <J-Button @click="visible = false"> 取消 </J-Button>
+        <J-Button @click="visible = false"> Confirm </J-Button>
+        <J-Button @click="visible = false"> close </J-Button>
       </template>
     </J-Dialog>
+    <J-Button round type="info" @click="visible = true">open dialog</J-Button>
 
-    script >
-      data() {
-        return {
-            visible: false,
-        };
+        <script>
+            data() {
+              return {
+                  visible: false,
+              };
+        </script>
   },
+```
+
+## J-Input..
+
+```
+<J-Input></J-Input>
+If you want to disable the input box, you can add Disable to the tab
+Like this
+<J-Input type="password" disable name="" placeholder="Please enter"></J-Input>
+
+<J-Input type="password" v-model="password" name="" placeholder="Please enter"></J-Input>
+
+        <script>
+            data() {
+              return {
+                  password: "",
+              };
+        </script>
 ```
 
 ###
