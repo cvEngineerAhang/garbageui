@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <J-Card>
-      
+    <J-Card title="Card title">
+      <template v-slot:image> </template>
+      <template v-slot:title> </template>
+      <template v-slot:text> </template>
+      <template v-slot:footer> </template>
     </J-Card>
     <!-- <J-Input
       type="password"
@@ -118,13 +121,13 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  display: flex;
-  flex-direction: column;
-  width: 280px;
-  height: 100px;
-  justify-content: space-around;
-}
+// #app {
+//   display: flex;
+//   flex-direction: column;
+//   width: 280px;
+//   height: 100px;
+//   justify-content: space-around;
+// }
 // .default,
 // .plain,
 // .round,
