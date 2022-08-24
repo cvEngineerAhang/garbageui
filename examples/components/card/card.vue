@@ -1,9 +1,11 @@
 <template>
   <div class="j-card">
-    <div class="j-card__img" v-if="$slots.image">
-      <slot name="image"></slot>
-      <!-- 卡片图片 -->
-    </div>
+    <!-- 卡片图片 -->
+    <slot></slot>
+
+    <!-- <div class="j-card__img" v-if="$slots.image"> -->
+    <!-- <slot name="image"></slot> -->
+    <!-- </div> -->
     <div class="j-card__main">
       <div class="j-card__header">
         <!-- 卡片顶部 -->
@@ -59,7 +61,7 @@ export default {
   }
   .j-card__img {
     border-radius: 5px 5px 0 0;
-    height: 180px;
+    height: 100%;
     background: red;
     width: 100%;
   }

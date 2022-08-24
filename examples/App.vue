@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <J-Card title="Card title">
-      <template v-slot:image> </template>
+      <J-Card-Image :src="url" />
+      <!-- <template v-slot:image> </template> -->
       <template v-slot:title> </template>
       <template v-slot:text> </template>
       <template v-slot:footer> </template>
@@ -110,6 +111,7 @@ export default {
     return {
       visible: false,
       zs: "zs",
+      url: "https://www.butterfly-global.com/en/products/item/37261_04.jpg",
     };
   },
   methods: {

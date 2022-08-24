@@ -9,7 +9,9 @@ Vue.component(JDialog.name, JDialog);
 import JInput from "./components/input/input";
 Vue.component(JInput.name, JInput);
 import JCard from "./components/card/card";
-Vue.component(JCard.name,JCard);
+Vue.component(JCard.name, JCard);
+import JCardImage from "./components/card/cardImage";
+Vue.component(JCardImage.name, JCardImage);
 // import garbageui from "../packages";
 // Vue.use(garbageui);
 new Vue({

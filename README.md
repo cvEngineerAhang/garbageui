@@ -87,6 +87,21 @@ Like this
         </script>
 ```
 
+## J-Card..
+
+```
+<J-Card></J-Card>
+
+
+    <J-Card title="Card title">
+      <J-Card-Image :src="url" />
+
+      <template v-slot:title> </template>
+      <template v-slot:text> </template>
+      <template v-slot:footer> </template>
+    </J-Card>
+```
+
 ###
 
 ```
