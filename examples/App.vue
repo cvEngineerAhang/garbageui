@@ -7,13 +7,13 @@
       <template v-slot:text> </template>
       <template v-slot:footer> </template>
     </J-Card>
-    <J-Input
+    <!-- <J-Input
       type="password"
       disabled
       name=""
       placeholder="禁用输入框"
     ></J-Input>
-    <J-Input type="password" name="" placeholder="请输入"></J-Input>
+    <J-Input type="password" name="" placeholder="请输入"></J-Input> -->
     <!-- <J-Input v-model="zs"></J-Input> -->
     <!-- <J-Dialog title="title" direction="" top="" width="" :visible.sync="visible">
       <span>title</span>
