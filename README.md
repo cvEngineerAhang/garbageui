@@ -9,6 +9,8 @@ You can add it to your project to try using him,
 npm install garbageui
 ```
 
+![image](https://github.com/cvEngineerAhang/garbageui/blob/main/examples/assets/use.png)
+
 ```
 import garbageui from "garbageui";
 ```
@@ -29,17 +31,9 @@ Vue.use(garbageui);
 <J-Button></J-Button>
 You can add type or plain or round or circle and disable to tags,
 It is now in the update phase and only finishes the button,
-
-Like this
 <J-Button type="primary">primary Button</J-Button>
-or
-<J-Button type="primary" plain >primary Button</J-Button>
-or
-<J-Button type="primary" round >primary Button</J-Button>
-or
-<J-Button type="primary" circle >primary Button</J-Button>
 ```
-
+![image](https://github.com/cvEngineerAhang/garbageui/blob/main/examples/assets/button.png)
 ## J-Dialog..
 
 ```
@@ -68,7 +62,7 @@ Like this
         </script>
   },
 ```
-
+![image](https://github.com/cvEngineerAhang/garbageui/blob/main/examples/assets/dialog.png)
 ## J-Input..
 
 ```
@@ -86,7 +80,7 @@ Like this
               };
         </script>
 ```
-
+![image](https://github.com/cvEngineerAhang/garbageui/blob/main/examples/assets/input.png)
 ## J-Card..
 
 ```
@@ -101,7 +95,7 @@ Like this
       <template v-slot:footer> </template>
     </J-Card>
 ```
-
+![image](https://github.com/cvEngineerAhang/garbageui/blob/main/examples/assets/card.png)
 ###
 
 ```
