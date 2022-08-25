@@ -7,22 +7,22 @@
       <template v-slot:text> </template>
       <template v-slot:footer> </template>
     </J-Card>
-    <!-- <J-Input
+    <J-Input
       type="password"
       disabled
       name=""
       placeholder="禁用输入框"
     ></J-Input>
-    <J-Input type="password" name="" placeholder="请输入"></J-Input> -->
+    <J-Input type="password" name="" placeholder="请输入"></J-Input>
     <!-- <J-Input v-model="zs"></J-Input> -->
-    <!-- <J-Dialog title="标题" direction="" top="" width="" :visible.sync="visible">
-      <span>内容</span>
+    <!-- <J-Dialog title="title" direction="" top="" width="" :visible.sync="visible">
+      <span>title</span>
       <template v-slot:footer>
-        <J-Button @click="visible = false"> 确定 </J-Button>
-        <J-Button @click="visible = false"> 取消 </J-Button>
+        <J-Button @click="visible = false"> OK </J-Button>
+        <J-Button @click="visible = false"> CLOSE </J-Button>
       </template>
     </J-Dialog>
-    <J-Button round type="info" @click="visible = true">按钮</J-Button> -->
+    <J-Button round type="info" @click="visible = true">BUTTON</J-Button> -->
 
     <!-- <div class="default">
       <J-Button round>default Button</J-Button>
