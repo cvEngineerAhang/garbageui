@@ -9,7 +9,7 @@ You can add it to your project to try using him,
 npm install garbageui
 ```
 
-![image](https://github.com/cvEngineerAhang/garbageui/blob/main/examples/assets/use.png)
+![image](http://101.43.224.51/assets/use.png)
 
 ```
 import garbageui from "garbageui";
@@ -33,7 +33,7 @@ You can add type or plain or round or circle and disable to tags,
 It is now in the update phase and only finishes the button,
 <J-Button type="primary">primary Button</J-Button>
 ```
-![image](https://github.com/cvEngineerAhang/garbageui/blob/main/examples/assets/button.png)
+![image](http://101.43.224.51/assets/button.png)
 ## J-Dialog..
 
 ```
@@ -62,7 +62,7 @@ Like this
         </script>
   },
 ```
-![image](https://github.com/cvEngineerAhang/garbageui/blob/main/examples/assets/dialog.png)
+![image](http://101.43.224.51/assets/dialog.png)
 ## J-Input..
 
 ```
@@ -80,7 +80,7 @@ Like this
               };
         </script>
 ```
-![image](https://github.com/cvEngineerAhang/garbageui/blob/main/examples/assets/input.png)
+![image](http://101.43.224.51/assets/input.png)
 ## J-Card..
 
 ```
@@ -95,7 +95,7 @@ Like this
       <template v-slot:footer> </template>
     </J-Card>
 ```
-![image](https://github.com/cvEngineerAhang/garbageui/blob/main/examples/assets/card.png)
+![image](http://101.43.224.51/assets/card.png)
 ###
 
 ```
