@@ -2,11 +2,22 @@
   <div id="app">
     <J-Card title="Card title">
       <J-Card-Image :src="url" />
-      <!-- <template v-slot:image> </template> -->
-      <template v-slot:title> </template>
-      <template v-slot:text> </template>
-      <template v-slot:footer> </template>
+      <J-Card-List-title>
+        <div>Card</div>
+      </J-Card-List-title>
+      <J-Card-List-Item>
+        <div>Greyhound divisely hello coldly fonwderfully</div>
+      </J-Card-List-Item>
+      <J-Card-List-actions>
+        <J-Button type="success">BUTTON</J-Button>
+        <J-Button>BUTTON</J-Button>
+      </J-Card-List-actions>
     </J-Card>
+
+    <!-- <template v-slot:image> </template> -->
+    <!-- <template v-slot:title> </template>
+      <template v-slot:text> </template>
+      <template v-slot:footer> </template> -->
     <!-- <J-Input
       type="password"
       disabled

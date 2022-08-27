@@ -33,7 +33,9 @@ You can add type or plain or round or circle and disable to tags,
 It is now in the update phase and only finishes the button,
 <J-Button type="primary">primary Button</J-Button>
 ```
+
 ![image](http://101.43.224.51/assets/button.png)
+
 ## J-Dialog..
 
 ```
@@ -62,7 +64,9 @@ Like this
         </script>
   },
 ```
+
 ![image](http://101.43.224.51/assets/dialog.png)
+
 ## J-Input..
 
 ```
@@ -80,22 +84,31 @@ Like this
               };
         </script>
 ```
+
 ![image](http://101.43.224.51/assets/input.png)
+
 ## J-Card..
 
 ```
 
 <J-Card></J-Card>
 
-
     <J-Card title="Card title">
       <J-Card-Image :src="url" />
-      <template v-slot:title> </template>
-      <template v-slot:text> </template>
-      <template v-slot:footer> </template>
+      <J-Card-List-title>
+        <div>Card</div>
+      </J-Card-List-title>
+      <J-Card-List-Item>
+        <div>Greyhound divisely hello coldly fonwderfully</div>
+      </J-Card-List-Item>
+      <J-Card-List-actions>
+        <J-Button type="success">BUTTON</J-Button>
+        <J-Button>BUTTON</J-Button>
+      </J-Card-List-actions>
     </J-Card>
 ```
-![image](http://101.43.224.51/assets/card.png)
+
+
 ###
 
 ```

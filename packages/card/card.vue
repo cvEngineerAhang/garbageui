@@ -3,12 +3,11 @@
     <!-- 卡片图片 -->
     <!-- <slot></slot> -->
 
-    <div class="j-card__img">
-      <slot></slot>
-    </div>
-    <div class="j-card__main">
+    <!-- <div class="j-card__img"> -->
+    <slot></slot>
+    <!-- </div> -->
+    <!-- <div class="j-card__main">
       <div class="j-card__header">
-        <!-- 卡片顶部 -->
         <slot name="title">
           <span>{{ title }}</span>
         </slot>
@@ -17,16 +16,14 @@
         <slot name="text">
           <span>Greyhound divisely hello coldly fonwderfully</span>
         </slot>
-        <!-- 卡片内容 -->
       </div>
       <div class="j-card__footer">
-        <!-- 卡片底部 -->
         <slot name="footer">
           <J-Button type="success">BUTTON</J-Button>
           <J-Button>BUTTON</J-Button>
         </slot>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -52,14 +49,14 @@ export default {
   border: 1px solid #e9e9e9;
   border-radius: 5px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  .j-card__main {
-    min-height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 5px 10px;
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+  // .j-card__main {
+  //   min-height: 150px;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-around;
+  //   padding: 5px 10px;
+  // }
   .j-card__img {
     border-radius: 5px 5px 0 0;
     min-height: initial;
@@ -68,15 +65,15 @@ export default {
     // background: red;
     // width: 100%;
   }
-  .j-card__header {
-    font-size: 18px;
-    font-weight: 500;
-  }
-  .j-card__body {
-    color: #757575;
-  }
-  .j-card__footer {
-    text-align: right;
-  }
+  // .j-card__header {
+  //   font-size: 18px;
+  //   font-weight: 500;
+  // }
+  // .j-card__body {
+  //   color: #757575;
+  // }
+  // .j-card__footer {
+  //   text-align: right;
+  // }
 }
 </style>
