@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <J-Card title="Card title">
+    <J-Switch></J-Switch>
+    <!-- <J-Card title="Card title">
       <J-Card-Image :src="url" />
       <J-Card-List-title>
         <div>Card</div>
@@ -12,7 +13,7 @@
         <J-Button type="success">BUTTON</J-Button>
         <J-Button>BUTTON</J-Button>
       </J-Card-List-actions>
-    </J-Card>
+    </J-Card> -->
 
     <!-- <template v-slot:image> </template> -->
     <!-- <template v-slot:title> </template>

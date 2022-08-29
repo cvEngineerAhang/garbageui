@@ -18,6 +18,8 @@ Vue.config.productionTip = false;
 // Vue.component(JCardListItem.name, JCardListItem);
 // import JCardListActions from "./components/card/cardListActions";
 // Vue.component(JCardListActions.name, JCardListActions);
+// import JSwitch from "./components/switch/switch";
+// Vue.component(JSwitch.name, JSwitch);
 import garbageui from "../packages";
 Vue.use(garbageui);
 new Vue({

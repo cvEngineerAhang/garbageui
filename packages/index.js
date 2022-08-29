@@ -7,6 +7,7 @@ import CardImage from "./card/cardImage";
 import CardListTitle from "./card/cardListTitle";
 import CardListItem from "./card/cardListItem";
 import CardListActions from "./card/cardListActions";
+import Switch from "./switch/switch";
 const components = [
   Button,
   Dialog,
@@ -16,6 +17,7 @@ const components = [
   CardListTitle,
   CardListItem,
   CardListActions,
+  Switch,
 ];
 const install = function (vue) {
   components.forEach((item) => {
