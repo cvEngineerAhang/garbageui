@@ -94,17 +94,17 @@ Like this
 <j-card></j-card>
 
     <j-card title="Card title">
-      <j-card-Image :src="url" />
-      <j-card-List-title>
+      <j-card-image :src="url" />
+      <j-card-list-title>
         <div>Card</div>
-      </j-card-List-title>
-      <j-card-List-Item>
+      </j-card-list-title>
+      <j-card-list-Item>
         <div>Greyhound divisely hello coldly fonwderfully</div>
-      </j-card-List-Item>
-      <j-card-List-actions>
-        <J-Button type="success">BUTTON</J-Button>
-        <J-Button>BUTTON</J-Button>
-      </j-card-List-actions>
+      </j-card-list-Item>
+      <j-card-list-actions>
+        <j-button type="success">BUTTON</j-button>
+        <j-button>BUTTON</j-button>
+      </j-card-list-actions>
     </j-card>
 ```
 
