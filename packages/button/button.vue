@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: "JButton",
+  name: "j-button",
   props: {
     type: {
       type: String,

@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: "JSwitch",
+  name: "j-switch",
   data() {
     return {
       in: false,

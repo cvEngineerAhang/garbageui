@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "JCardListActions",
+  name: "j-card-list-actions",
 };
 </script>
 

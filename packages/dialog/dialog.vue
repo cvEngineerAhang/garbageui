@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  name: "JDialog",
+  name: "j-dialog",
   data() {
     return {
       dialogFade: "dialog-fade",

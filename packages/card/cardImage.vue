@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "JCardImage",
+  name: "j-card-image",
   props: {
     src: {
       type: String,

@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: "JInput",
+  name: "j-input",
   data() {
     return {};
   },

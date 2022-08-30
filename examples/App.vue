@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <J-Switch @change="handleChange"></J-Switch>
+    <j-switch @change="handleChange"></j-switch>
     <!-- <J-Card title="Card title">
       <J-Card-Image :src="url" />
       <J-Card-List-title>
@@ -26,7 +26,7 @@
       placeholder="禁用输入框"
     ></J-Input>
     <J-Input type="password" name="" placeholder="请输入"></J-Input> -->
-    <!-- <J-Input v-model="zs"></J-Input> -->
+    <j-input v-model="zs"></j-input>
     <!-- <J-Dialog title="title" direction="" top="" width="" :visible.sync="visible">
       <span>title</span>
       <template v-slot:footer>
@@ -35,16 +35,28 @@
       </template>
     </J-Dialog>
     <J-Button round type="info" @click="visible = true">BUTTON</J-Button> -->
-
-    <!-- <div class="default">
-      <J-Button round>default Button</J-Button>
-      <J-Button round type="primary">primary Button</J-Button>
-      <J-Button round type="success">success Button</J-Button>
-      <J-Button round type="danger">danger Button</J-Button>
-      <J-Button round type="warning">warning Button</J-Button>
-      <J-Button round type="info">info Button</J-Button>
-      <J-Button round type="gay"> Button</J-Button>
-    </div> -->
+   <j-card title="Card title">
+      <j-card-image :src="url" />
+      <j-card-list-title>
+        <div>Card</div>
+      </j-card-list-title>
+      <j-card-list-item>
+        <div>Greyhound divisely hello coldly fonwderfully</div>
+      </j-card-list-item>
+      <j-card-list-actions>
+        <j-button type="success">BUTTON</j-button>
+        <j-button>BUTTON</j-button>
+      </j-card-list-actions>
+    </j-card>
+    <div class="default">
+      <j-button round>default Button</j-button>
+      <j-button round type="primary">primary Button</j-button>
+      <j-button round type="success">success Button</j-button>
+      <j-button round type="danger">danger Button</j-button>
+      <j-button round type="warning">warning Button</j-button>
+      <j-button round type="info">info Button</j-button>
+      <j-button round type="gay"> Button</j-button>
+    </div>
     <!-- <J-Dialog title="title"></J-Dialog> -->
     <!-- <div>圆形按钮</div>
     <div class="circle">

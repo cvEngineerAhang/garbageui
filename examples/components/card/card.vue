@@ -29,7 +29,7 @@
 
 <script>
 export default {
-  name: "JCard",
+  name: "j-card",
   props: {
     title: {
       type: String,

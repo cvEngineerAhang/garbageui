@@ -9,7 +9,7 @@ You can add it to your project to try using him,
 npm install garbageui
 ```
 
-![Image text](http://101.43.224.51/assets/use.png)
+<!-- ![Image text](http://101.43.224.51/assets/use.png) -->
 
 ```
 import garbageui from "garbageui";
@@ -25,36 +25,36 @@ Vue.use(garbageui);
 
 ## Then....
 
-## J-Button..
+## j-button..
 
 ```
-<J-Button></J-Button>
+<j-button></j-button>
 You can add type or plain or round or circle and disable to tags,
 It is now in the update phase and only finishes the button,
-<J-Button type="primary">primary Button</J-Button>
+<j-button type="primary">primary Button</j-button>
 ```
 
-![Image text](http://101.43.224.51/assets/button.png)
+<!-- ![Image text](http://101.43.224.51/assets/button.png) -->
 
-## J-Dialog..
+## j-dialog..
 
 ```
-<J-Dialog></J-Dialog>
+<j-dialog></j-dialog>
 You can use slots to configure the title or body or footer of the dialog
 You can also pass in top(distance from top), or pass in width
 You can control the animation when the dialog appears by entering the direction(top,bottom,left,right), or select the default without typing
 Like this
-    <J-Dialog title="title" direction="" top="" width="" :visible.sync="visible">
+    <j-dialog title="title" direction="" top="" width="" :visible.sync="visible">
      <!-- <template v-slot:title>
         <span>title</sapn>
       </template> -->
       <span>内容</span>
       <template v-slot:footer>
-        <J-Button @click="visible = false"> Confirm </J-Button>
-        <J-Button @click="visible = false"> close </J-Button>
+        <j-button @click="visible = false"> Confirm </j-button>
+        <j-button @click="visible = false"> close </j-button>
       </template>
-    </J-Dialog>
-    <J-Button round type="info" @click="visible = true">open dialog</J-Button>
+    </j-dialog>
+    <j-button round type="info" @click="visible = true">open dialog</j-button>
 
         <script>
             data() {
@@ -65,17 +65,17 @@ Like this
   },
 ```
 
-![Image text](http://101.43.224.51/assets/dialog.png)
+<!-- ![Image text](http://101.43.224.51/assets/dialog.png) -->
 
-## J-Input..
+## j-input..
 
 ```
-<J-Input></J-Input>
+<j-input></j-input>
 If you want to disable the input box, you can add Disable to the tab
 Like this
-<J-Input type="password" disable name="" placeholder="Please enter"></J-Input>
+<j-input type="password" disable name="" placeholder="Please enter"></j-input>
 
-<J-Input type="password" v-model="password" name="" placeholder="Please enter"></J-Input>
+<j-input type="password" v-model="password" name="" placeholder="Please enter"></j-input>
 
         <script>
             data() {
@@ -85,37 +85,37 @@ Like this
         </script>
 ```
 
-![image](http://101.43.224.51/assets/input.png)
+<!-- ![image](http://101.43.224.51/assets/input.png) -->
 
-## J-Card..
+## j-card..
 
 ```
 
-<J-Card></J-Card>
+<j-card></j-card>
 
-    <J-Card title="Card title">
-      <J-Card-Image :src="url" />
-      <J-Card-List-title>
+    <j-card title="Card title">
+      <j-card-Image :src="url" />
+      <j-card-List-title>
         <div>Card</div>
-      </J-Card-List-title>
-      <J-Card-List-Item>
+      </j-card-List-title>
+      <j-card-List-Item>
         <div>Greyhound divisely hello coldly fonwderfully</div>
-      </J-Card-List-Item>
-      <J-Card-List-actions>
+      </j-card-List-Item>
+      <j-card-List-actions>
         <J-Button type="success">BUTTON</J-Button>
         <J-Button>BUTTON</J-Button>
-      </J-Card-List-actions>
-    </J-Card>
+      </j-card-List-actions>
+    </j-card>
 ```
 
-![image](http://101.43.224.51/assets/card.png)
+<!-- ![image](http://101.43.224.51/assets/card.png) -->
 
-## J-Switch..
+## j-switch..
 
 ```
-  <J-Switch></J-Switch>
+  <j-switch></j-switch>
 
-  <J-Switch @change="handleChange"></J-Switch>
+  <j-switch @change="handleChange"></j-switch>
 
   methods: {
     handleChange(e){

@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "JCardListTitle",
+  name: "j-card-list-title",
 };
 </script>
 
