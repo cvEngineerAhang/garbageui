@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <J-Switch></J-Switch>
+    <J-Switch @change="handleChange"></J-Switch>
     <!-- <J-Card title="Card title">
       <J-Card-Image :src="url" />
       <J-Card-List-title>
@@ -130,6 +130,9 @@ export default {
     fn() {
       console.log("A");
     },
+    handleChange(e){
+      console.log(e);
+    }
   },
 };
 </script>

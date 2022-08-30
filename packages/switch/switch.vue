@@ -1,11 +1,19 @@
 <template>
-  <div class="j-switch" @click="handleChange">
+  <div
+    class="j-switch"
+    @click="handleChange"
+    :style="{
+      background: backgroundF,
+      transition: 'ease .3s',
+    }"
+  >
+    <!-- #FFCDD2 -->
     <div
       class="j-switch-circle"
       :style="{
         background: background,
         transform: transform,
-        transition: 'ease 1s',
+        transition: 'ease .3s',
       }"
     ></div>
   </div>
@@ -16,18 +24,25 @@ export default {
   name: "JSwitch",
   data() {
     return {
-      in: true,
-      background: "aqua",
+      in: false,
+      backgroundF: "#FFCDD2",
+      background: "#EF5350",
       transform: "translateX(0px)",
     };
   },
   methods: {
     handleChange() {
       this.in = !this.in;
-      this.in ? (this.background = "aqua") : (this.background = "red");
-      this.in
+      // ((this.backgroundF = "#bbdefb"))
+      // ((this.backgroundF = "#FFCDD2"))
+      !this.in
+        ? ((this.background = "#EF5350"), (this.backgroundF = "#FFCDD2"))
+        : ((this.background = "#42A5F5"), (this.backgroundF = "#bbdefb"));
+      !this.in
         ? (this.transform = "translateX(0px)")
         : (this.transform = "translateX(20px)");
+      // console.log(this.in);
+      this.$emit("change" || "click", this.in);
     },
   },
 };
@@ -37,7 +52,8 @@ export default {
 .j-switch {
   width: 40px;
   height: 20px;
-  background: green;
+  // background: #bbdefb;
+  cursor: pointer;
   border-radius: 10px;
   &-circle {
     // background: red;

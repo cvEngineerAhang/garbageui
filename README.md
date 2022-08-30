@@ -107,7 +107,22 @@ Like this
       </J-Card-List-actions>
     </J-Card>
 ```
+
 ![image](http://101.43.224.51/assets/card.png)
+
+## J-Switch..
+
+```
+  <J-Switch></J-Switch>
+
+  <J-Switch @change="handleChange"></J-Switch>
+
+  methods: {
+    handleChange(e){
+      console.log(e);
+    }
+  },
+```
 
 ###
 
