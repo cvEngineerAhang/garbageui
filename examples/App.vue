@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <j-switch @change="handleChange"></j-switch>
+    <j-switch @change="handleChange" active-color="" inactive-color="" ></j-switch>
     <!-- <J-Card title="Card title">
       <J-Card-Image :src="url" />
       <J-Card-List-title>
@@ -26,7 +26,7 @@
       placeholder="禁用输入框"
     ></J-Input>
     <J-Input type="password" name="" placeholder="请输入"></J-Input> -->
-    <j-input v-model="zs"></j-input>
+    <!-- <j-input v-model="zs"></j-input> -->
     <!-- <J-Dialog title="title" direction="" top="" width="" :visible.sync="visible">
       <span>title</span>
       <template v-slot:footer>
@@ -35,7 +35,7 @@
       </template>
     </J-Dialog>
     <J-Button round type="info" @click="visible = true">BUTTON</J-Button> -->
-   <j-card title="Card title">
+   <!-- <j-card title="Card title">
       <j-card-image :src="url" />
       <j-card-list-title>
         <div>Card</div>
@@ -56,7 +56,7 @@
       <j-button round type="warning">warning Button</j-button>
       <j-button round type="info">info Button</j-button>
       <j-button round type="gay"> Button</j-button>
-    </div>
+    </div> -->
     <!-- <J-Dialog title="title"></J-Dialog> -->
     <!-- <div>圆形按钮</div>
     <div class="circle">
