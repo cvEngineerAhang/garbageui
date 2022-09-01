@@ -44,16 +44,16 @@ export default {
   name: "j-switch",
   data() {
     if (this.activeColor === "") {
-      console.error("active-color is empty123");
+      console.error("active-color is empty🤨");
     }
     if (this.inactiveColor === "") {
-      console.error("inactive-color is empty");
+      console.error("inactive-color is empty🤨");
     }
     if (this.circleActiveColor === "") {
-      console.error("circle-active-color is empty");
+      console.error("circle-active-color is empty🤨");
     }
     if (this.circleInactiveColor === "") {
-      console.error("circle-inactive-color is empty");
+      console.error("circle-inactive-color is empty🤨");
     }
     return {
       in: false,
