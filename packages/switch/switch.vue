@@ -44,7 +44,7 @@ export default {
   name: "j-switch",
   data() {
     if (this.activeColor === "") {
-      console.error("active-color is empty");
+      console.error("active-color is empty123");
     }
     if (this.inactiveColor === "") {
       console.error("inactive-color is empty");
