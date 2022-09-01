@@ -49,6 +49,12 @@ export default {
     if (this.inactiveColor === "") {
       console.error("inactive-color is empty");
     }
+    if (this.circleActiveColor === "") {
+      console.error("circle-active-color is empty");
+    }
+    if (this.circleInactiveColor === "") {
+      console.error("circle-inactive-color is empty");
+    }
     return {
       in: false,
       backgroundF: this.activeColor, //初始背景红色

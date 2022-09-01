@@ -115,8 +115,10 @@ Like this
 ```
   <j-switch></j-switch>
 
-  <j-switch @change="handleChange"></j-switch>
+  <j-switch   @change="handleChange"></j-switch>
 
+  You can set the color in the tags
+  active-color="" inactive-color=""  circle-active-color ="" circle-inactive-color=""
   methods: {
     handleChange(e){
       console.log(e);
