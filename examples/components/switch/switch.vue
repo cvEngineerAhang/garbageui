@@ -24,13 +24,21 @@ export default {
   props: {
     activeColor: {
       type: String,
-      default: "#FFCDD2",
+      default: "#FFCDD2", //初始背景颜色
       // 开
     },
     inactiveColor: {
       type: String,
-      default: "#bbdefb",
+      default: "#bbdefb", // 触发背景颜色
       //关
+    },
+    circleActiveColor: {
+      type: String,
+      default: "#EF5350", //初始圆点颜色
+    },
+    circleInactiveColor: {
+      type: String,
+      default: "#42A5F5", //触发圆点颜色
     },
   },
   name: "j-switch",
@@ -43,23 +51,25 @@ export default {
     }
     return {
       in: false,
-      backgroundF: "#FFCDD2",
-      background: "#EF5350",
+      backgroundF: this.activeColor, //初始背景红色
+      backgroundI: this.inactiveColor, //触发背景颜色
+      background: this.circleActiveColor, //初始圆点红色
+      backgroundC: this.circleInactiveColor, // 触发圆点颜色
       transform: "translateX(0px)",
-      // activecolor: this.activeColor,
-      // inactivecolor: this.inactiveColor,
     };
   },
-  created() {},
+  created() {
+    console.log(this.activeColor, this.inactiveColor);
+  },
   methods: {
     handleChange() {
       this.in = !this.in;
-      // ((this.backgroundF = "#bbdefb"))
-      // ((this.backgroundF = "#FFCDD2"))
-      !this.in
-        ? ((this.background = "#EF5350"), (this.backgroundF = this.activeColor))
-        : ((this.background = "#42A5F5"),
-          (this.backgroundF = this.inactiveColor));
+      this.in
+        ? (this.backgroundF = this.backgroundI)
+        : (this.backgroundF = this.activeColor);
+      this.in
+        ? (this.background = this.backgroundC)
+        : (this.background = this.circleActiveColor);
       !this.in
         ? (this.transform = "translateX(0px)")
         : (this.transform = "translateX(20px)");

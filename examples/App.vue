@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <j-switch @change="handleChange" active-color="" inactive-color="" ></j-switch>
+    <j-switch @change="handleChange"></j-switch>
+    <!-- active-color="" inactive-color="" -->
+    <!-- circle-active-color ="" circle-inactive-color=""  -->
     <!-- <J-Card title="Card title">
       <J-Card-Image :src="url" />
       <J-Card-List-title>
@@ -35,7 +37,7 @@
       </template>
     </J-Dialog>
     <J-Button round type="info" @click="visible = true">BUTTON</J-Button> -->
-   <!-- <j-card title="Card title">
+    <!-- <j-card title="Card title">
       <j-card-image :src="url" />
       <j-card-list-title>
         <div>Card</div>
@@ -142,9 +144,9 @@ export default {
     fn() {
       console.log("A");
     },
-    handleChange(e){
+    handleChange(e) {
       console.log(e);
-    }
+    },
   },
 };
 </script>
