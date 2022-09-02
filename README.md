@@ -94,7 +94,7 @@ Like this
 <j-card></j-card>
 
     <j-card title="Card title">
-      <j-card-image :src="url" />
+      <!-- <j-card-image :src="url" /> -->
       <j-card-list-title>
         <div>Card</div>
       </j-card-list-title>
