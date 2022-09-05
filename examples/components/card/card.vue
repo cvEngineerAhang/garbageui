@@ -50,6 +50,8 @@ export default {
   border-radius: 5px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
   // .j-card__main {
   //   min-height: 150px;
   //   display: flex;

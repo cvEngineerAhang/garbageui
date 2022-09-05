@@ -8,6 +8,8 @@ import CardListTitle from "./card/cardListTitle";
 import CardListItem from "./card/cardListItem";
 import CardListActions from "./card/cardListActions";
 import Switch from "./switch/switch";
+import Carousel from "./carousel/carousel";
+import CarouselItem from "./carousel/carouselItem";
 const components = [
   Button,
   Dialog,
@@ -18,6 +20,8 @@ const components = [
   CardListItem,
   CardListActions,
   Switch,
+  Carousel,
+  CarouselItem,
 ];
 const install = function (vue) {
   components.forEach((item) => {

@@ -1,22 +1,24 @@
 <template>
   <div id="app">
+    <j-carousel height="150px">
+      <j-carousel-item v-for="item in 3" :key="item"></j-carousel-item>
+    </j-carousel>
     <j-input></j-input>
     <j-switch @change="handleChange"></j-switch>
     <!-- active-color="" inactive-color="" -->
     <!-- circle-active-color ="" circle-inactive-color=""  -->
-    <!-- <J-Card title="Card title">
-      <J-Card-Image :src="url" />
-      <J-Card-List-title>
+    <!-- <j-card title="Card title">
+      <j-card-list-title>
         <div>Card</div>
-      </J-Card-List-title>
-      <J-Card-List-Item>
+      </j-card-list-title>
+      <j-card-list-item>
         <div>Greyhound divisely hello coldly fonwderfully</div>
-      </J-Card-List-Item>
-      <J-Card-List-actions>
-        <J-Button type="success">BUTTON</J-Button>
-        <J-Button>BUTTON</J-Button>
-      </J-Card-List-actions>
-    </J-Card> -->
+      </j-card-list-item>
+      <j-card-list-actions>
+        <j-button type="success">BUTTON</j-button>
+        <j-button>BUTTON</j-button>
+      </j-card-list-actions>
+    </j-card> -->
 
     <!-- <template v-slot:image> </template> -->
     <!-- <template v-slot:title> </template>
@@ -153,6 +155,10 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  padding: 0;
+  margin: 0;
+}
 // #app {
 //   display: flex;
 //   flex-direction: column;

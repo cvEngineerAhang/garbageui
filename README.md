@@ -98,9 +98,9 @@ Like this
       <j-card-list-title>
         <div>Card</div>
       </j-card-list-title>
-      <j-card-list-Item>
+      <j-card-list-item>
         <div>Greyhound divisely hello coldly fonwderfully</div>
-      </j-card-list-Item>
+      </j-card-list-item>
       <j-card-list-actions>
         <j-button type="success">BUTTON</j-button>
         <j-button>BUTTON</j-button>
