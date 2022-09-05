@@ -18,7 +18,8 @@ export default {
 
 <style lang="scss" scoped>
 .j-carousel {
-  width: 100%;
-  background: red;
+  display: flex;
+  width: 300px;
+  // background: red;
 }
 </style>

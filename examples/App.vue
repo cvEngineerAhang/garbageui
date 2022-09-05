@@ -1,10 +1,14 @@
 <template>
   <div id="app">
     <j-carousel height="150px">
-      <j-carousel-item v-for="item in 3" :key="item"></j-carousel-item>
+      <j-carousel-item
+        v-for="item in url2"
+        :key="item.id"
+        :src="item.src"
+      ></j-carousel-item>
     </j-carousel>
-    <j-input></j-input>
-    <j-switch @change="handleChange"></j-switch>
+    <!-- <j-input></j-input>
+    <j-switch @change="handleChange"></j-switch> -->
     <!-- active-color="" inactive-color="" -->
     <!-- circle-active-color ="" circle-inactive-color=""  -->
     <!-- <j-card title="Card title">
@@ -141,6 +145,16 @@ export default {
       visible: false,
       zs: "zs",
       url: "https://www.butterfly-global.com/en/products/item/37261_04.jpg",
+      url2: [
+        {
+          id: "1",
+          src: "https://www.butterfly-global.com/en/products/item/37261_04.jpg",
+        },
+        {
+          id: "2",
+          src: "https://www.butterfly-global.com/en/products/item/37261_04.jpg",
+        },
+      ],
     };
   },
   methods: {
