@@ -1,5 +1,5 @@
 <template>
-  <div class="j-input">
+  <div class="j-input" :style="{ width }">
     <input
       class="j-input__inner"
       :placeholder="placeholder"
@@ -47,6 +47,10 @@ export default {
       type: String,
       default: "",
     },
+    width: {
+      type: String,
+      default: "150px",
+    },
   },
 };
 </script>
@@ -54,7 +58,9 @@ export default {
 <style lang="scss" scoped>
 $height: 35px;
 .j-input {
-  width: 100%;
+  margin: 5px 0;
+
+  // width: 100%;
   position: relative;
   font-size: 16px;
   display: inline-block;

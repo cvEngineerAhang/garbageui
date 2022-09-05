@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <j-input></j-input>
     <j-switch @change="handleChange"></j-switch>
     <!-- active-color="" inactive-color="" -->
     <!-- circle-active-color ="" circle-inactive-color=""  -->

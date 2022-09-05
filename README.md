@@ -75,7 +75,7 @@ If you want to disable the input box, you can add Disable to the tab
 Like this
 <j-input type="password" disable name="" placeholder="Please enter"></j-input>
 
-<j-input type="password" v-model="password" name="" placeholder="Please enter"></j-input>
+<j-input type="password" v-model="password" name="" placeholder="Please enter" width:"150px"></j-input>
 
         <script>
             data() {
