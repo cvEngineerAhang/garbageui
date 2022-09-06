@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <j-carousel height="150px">
+    <j-carousel height="550px">
       <j-carousel-item
         v-for="item in url2"
         :key="item.id"
@@ -152,6 +152,26 @@ export default {
         },
         {
           id: "2",
+          src: "https://www.butterfly-global.com/en/products/item/37261_04.jpg",
+        },
+        {
+          id: "3",
+          src: "https://www.butterfly-global.com/en/products/item/37261_04.jpg",
+        },
+        {
+          id: "4",
+          src: "https://www.butterfly-global.com/en/products/item/37261_04.jpg",
+        },
+        {
+          id: "5",
+          src: "https://www.butterfly-global.com/en/products/item/37261_04.jpg",
+        },
+        {
+          id: "6",
+          src: "https://www.butterfly-global.com/en/products/item/37261_04.jpg",
+        },
+        {
+          id: "7",
           src: "https://www.butterfly-global.com/en/products/item/37261_04.jpg",
         },
       ],
