@@ -26,7 +26,7 @@ export default {
   .imgs {
     // width: 100%;
     position: relative;
-    left: -1800px;
+    // left: -1800px;
     height: inherit;
     // width: 200px;
     // padding-right: 100%;
