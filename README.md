@@ -125,7 +125,6 @@ Like this
     }
   },
 ```
-## j-carousel..
 ### To: jiacheng_niii@outlook.com 
 
 ```
