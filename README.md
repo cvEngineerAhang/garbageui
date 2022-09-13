@@ -9,7 +9,6 @@ You can add it to your project to try using him,
 npm install garbageui
 ```
 
-<!-- ![Image text](http://101.43.224.51/assets/use.png) -->
 
 ```
 import garbageui from "garbageui";
@@ -34,7 +33,6 @@ It is now in the update phase and only finishes the button,
 <j-button type="primary">primary Button</j-button>
 ```
 
-<!-- ![Image text](http://101.43.224.51/assets/button.png) -->
 
 ## j-dialog..
 
@@ -65,7 +63,6 @@ Like this
   },
 ```
 
-<!-- ![Image text](http://101.43.224.51/assets/dialog.png) -->
 
 ## j-input..
 
@@ -85,7 +82,6 @@ Like this
         </script>
 ```
 
-<!-- ![image](http://101.43.224.51/assets/input.png) -->
 
 ## j-card..
 
@@ -107,8 +103,6 @@ Like this
       </j-card-list-actions>
     </j-card>
 ```
-
-<!-- ![image](http://101.43.224.51/assets/card.png) -->
 
 ## j-switch..
 
