@@ -17,6 +17,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// 坚持不住了
 .j-carousel {
   display: flex;
   width: 50%;
