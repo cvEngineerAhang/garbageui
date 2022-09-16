@@ -19,6 +19,7 @@ export default {
 <style lang="scss" scoped>
 // 坚持不住了
 //one
+//two
 .j-carousel {
   display: flex;
   width: 50%;
