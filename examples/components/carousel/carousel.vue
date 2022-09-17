@@ -20,6 +20,7 @@ export default {
 // 坚持不住了
 //one
 //two
+//threen
 .j-carousel {
   display: flex;
   width: 50%;
